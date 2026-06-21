@@ -1,0 +1,352 @@
+- generic [ref=e1]:
+  - generic [ref=e3829]:
+    - complementary [ref=e3830]:
+      - generic [ref=e3831]:
+        - link "好医生药店端 好医生药店端" [ref=e3833] [cursor=pointer]:
+          - /url: "#/dashboard/Analysis"
+          - img "好医生药店端" [ref=e3834]
+          - text: 好医生药店端
+        - menu [ref=e3835]:
+          - 'menuitem "图标: appstore 首页" [ref=e3836] [cursor=pointer]':
+            - 'link "图标: appstore 首页" [ref=e3837]':
+              - /url: /dashboard/Analysis
+              - 'generic "图标: appstore" [ref=e3838]':
+                - img [ref=e3839]
+              - text: 首页
+          - 'menuitem "图标: appstore 在线问诊" [ref=e3841] [cursor=pointer]':
+            - 'link "图标: appstore 在线问诊" [ref=e3842]':
+              - /url: /onlineConsultation/NewConsultationList
+              - 'generic "图标: appstore" [ref=e3843]':
+                - img [ref=e3844]
+              - text: 在线问诊
+          - 'menuitem "图标: appstore 人员" [ref=e3846]':
+            - generic [ref=e3848] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e3849]':
+                - img [ref=e3850]
+              - text: 人员
+          - 'menuitem "图标: appstore 业务" [ref=e3852]':
+            - generic [ref=e3854] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e3855]':
+                - img [ref=e3856]
+              - text: 业务
+          - 'menuitem "图标: appstore 商城" [ref=e3858]':
+            - generic [ref=e3860] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e3861]':
+                - img [ref=e3862]
+              - text: 商城
+          - 'menuitem "图标: appstore 财务" [ref=e3864]':
+            - generic [ref=e3866] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e3867]':
+                - img [ref=e3868]
+              - text: 财务
+          - 'menuitem "图标: appstore 数据" [ref=e3870]':
+            - generic [ref=e3872] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e3873]':
+                - img [ref=e3874]
+              - text: 数据
+          - 'menuitem "图标: appstore 推荐库管理" [ref=e3876]':
+            - generic [ref=e3878] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e3879]':
+                - img [ref=e3880]
+              - text: 推荐库管理
+          - 'menuitem "图标: appstore AI药师助手" [ref=e3882] [cursor=pointer]':
+            - 'link "图标: appstore AI药师助手" [ref=e3883]':
+              - /url: /aiPharmacistAssistant/AssistantMain
+              - 'generic "图标: appstore" [ref=e3884]':
+                - img [ref=e3885]
+              - text: AI药师助手
+          - 'menuitem "图标: appstore 厂家知识库" [ref=e3887] [cursor=pointer]':
+            - 'link "图标: appstore 厂家知识库" [ref=e3888]':
+              - /url: /manufacturerKnowledgeBase/Index
+              - 'generic "图标: appstore" [ref=e3889]':
+                - img [ref=e3890]
+              - text: 厂家知识库
+    - generic [ref=e3892]:
+      - generic [ref=e3895]:
+        - 'generic "图标: menu-unfold" [ref=e3897] [cursor=pointer]':
+          - img [ref=e3898]
+        - generic [ref=e3902]:
+          - 'button "图标: qrcode 药店二维码" [ref=e3924] [cursor=pointer]':
+            - 'generic "图标: qrcode"':
+              - img
+            - generic: 药店二维码
+          - 'button "李陆林测试药店 图标: down" [ref=e3926] [cursor=pointer]':
+            - generic: 李陆林测试药店
+            - 'generic "图标: down"':
+              - img
+          - img [ref=e3905] [cursor=pointer]
+          - 'link "图标: logout" [ref=e3907] [cursor=pointer]':
+            - /url: javascript:;
+            - 'generic "图标: logout" [ref=e3908]':
+              - img [ref=e3909]
+      - main [ref=e3911]:
+        - generic [ref=e3912]:
+          - main [ref=e3916]:
+            - generic [ref=e3930]:
+              - generic [ref=e3931]:
+                - 'button "图标: arrow-left 返回" [ref=e3932] [cursor=pointer]':
+                  - 'generic "图标: arrow-left"':
+                    - img
+                  - generic: 返回
+                - generic [ref=e3933]: 西药处方
+              - generic [ref=e3934]:
+                - generic [ref=e3935]:
+                  - generic [ref=e3937]:
+                    - generic [ref=e3938]: "1"
+                    - generic [ref=e3939]:
+                      - generic [ref=e3940]: 药品清单
+                      - generic [ref=e3941]: 选择首诊时开具的药品
+                  - generic [ref=e3943]:
+                    - generic [ref=e3944]: "2"
+                    - generic [ref=e3945]:
+                      - generic [ref=e3946]: 就诊人信息
+                      - generic [ref=e3947]: 填写就诊人基本信息
+                  - generic [ref=e3949]:
+                    - generic [ref=e3950]: "3"
+                    - generic [ref=e3951]:
+                      - generic [ref=e3952]: 预诊问答
+                      - generic [ref=e3953]: 回答基础预诊问卷
+                - generic [ref=e3954]:
+                  - generic [ref=e3955]:
+                    - generic [ref=e3957]:
+                      - generic [ref=e3958]: 首诊时开具的药品
+                      - generic [ref=e3959]: 已选择0种药品。
+                    - generic [ref=e3960]:
+                      - generic [ref=e3961]:
+                        - 'generic "图标: search" [ref=e3963]':
+                          - img [ref=e3964]
+                        - textbox "请输入商品名称或者69码搜索" [ref=e3966]
+                      - button "搜 索" [ref=e3967] [cursor=pointer]:
+                        - generic: 搜 索
+                    - generic [ref=e3969]:
+                      - img [ref=e3971]
+                      - paragraph [ref=e3983]: 请搜索添加
+                  - button "下一步，填写就诊人" [ref=e3985] [cursor=pointer]:
+                    - generic: 下一步，填写就诊人
+          - generic [ref=e3922]: © HysYun - 灰度版
+  - dialog "请选择首诊时医生开具的药品" [ref=e3987]:
+    - document:
+      - generic [ref=e3988]:
+        - button "Close" [ref=e3989] [cursor=pointer]:
+          - 'generic "图标: close" [ref=e3991]':
+            - img [ref=e3992]
+        - generic [ref=e3995]: 请选择首诊时医生开具的药品
+        - generic [ref=e3997]:
+          - generic [ref=e3998]:
+            - generic [ref=e4000]:
+              - generic [ref=e4001]:
+                - 'generic "图标: search" [ref=e4003]':
+                  - img [ref=e4004]
+                - textbox "请输入商品名称或者69码搜索" [active] [ref=e4006]: 阿莫西林
+                - 'generic "图标: close-circle" [ref=e4008] [cursor=pointer]':
+                  - img [ref=e4009]
+              - button "搜 索" [ref=e4012] [cursor=pointer]:
+                - generic: 搜 索
+            - generic [ref=e4013]:
+              - generic [ref=e4015]: "同时搜索两个以上条件,请用空格隔开示例: 阿莫西林 好医生"
+              - 'generic "图标: close" [ref=e4016] [cursor=pointer]':
+                - img [ref=e4017]
+            - generic [ref=e4022]:
+              - generic [ref=e4023]: 共搜索到 1529 种药品
+              - generic [ref=e4024]:
+                - generic [ref=e4025] [cursor=pointer]:
+                  - generic [ref=e4026]:
+                    - generic [ref=e4027]: 阿莫西林克拉维酸钾分散片
+                    - generic [ref=e4028]: 规格：0.2285g*8片/盒厂家：哈药集团制药总厂
+                  - generic [ref=e4029]:
+                    - 'generic "图标: check" [ref=e4030]':
+                      - img [ref=e4031]
+                    - text: 选择
+                - generic [ref=e4033] [cursor=pointer]:
+                  - generic [ref=e4034]:
+                    - generic [ref=e4035]: 阿莫西林克拉维酸钾分散片
+                    - generic [ref=e4036]: 规格：0.5g*10片/盒厂家：上海新亚药业闵行有限公司
+                  - generic [ref=e4037]:
+                    - 'generic "图标: check" [ref=e4038]':
+                      - img [ref=e4039]
+                    - text: 选择
+                - generic [ref=e4041] [cursor=pointer]:
+                  - generic [ref=e4042]:
+                    - generic [ref=e4043]: 阿莫西林颗粒
+                    - generic [ref=e4044]: 规格：0.125g*14袋/盒厂家：湖南中和制药
+                  - generic [ref=e4045]:
+                    - 'generic "图标: check" [ref=e4046]':
+                      - img [ref=e4047]
+                    - text: 选择
+                - generic [ref=e4049] [cursor=pointer]:
+                  - generic [ref=e4050]:
+                    - generic [ref=e4051]: 阿莫西林颗粒
+                    - generic [ref=e4052]: 规格：0.25g*12袋/盒厂家：石药集团中诺药业(石家庄)有限公司
+                  - generic [ref=e4053]:
+                    - 'generic "图标: check" [ref=e4054]':
+                      - img [ref=e4055]
+                    - text: 选择
+                - generic [ref=e4057] [cursor=pointer]:
+                  - generic [ref=e4058]:
+                    - generic [ref=e4059]: 阿莫西林颗粒
+                    - generic [ref=e4060]: 规格：0.25g*18袋/盒厂家：石药集团中诺药业(石家庄)有限公司
+                  - generic [ref=e4061]:
+                    - 'generic "图标: check" [ref=e4062]':
+                      - img [ref=e4063]
+                    - text: 选择
+                - generic [ref=e4065] [cursor=pointer]:
+                  - generic [ref=e4066]:
+                    - generic [ref=e4067]: 阿莫西林颗粒
+                    - generic [ref=e4068]: 规格：0.125g*10袋/盒厂家：四川依科制药有限责任公司
+                  - generic [ref=e4069]:
+                    - 'generic "图标: check" [ref=e4070]':
+                      - img [ref=e4071]
+                    - text: 选择
+                - generic [ref=e4073] [cursor=pointer]:
+                  - generic [ref=e4074]:
+                    - generic [ref=e4075]: 阿莫西林颗粒
+                    - generic [ref=e4076]: 规格：0.125g*12袋/盒厂家：哈药集团制药总厂
+                  - generic [ref=e4077]:
+                    - 'generic "图标: check" [ref=e4078]':
+                      - img [ref=e4079]
+                    - text: 选择
+                - generic [ref=e4081] [cursor=pointer]:
+                  - generic [ref=e4082]:
+                    - generic [ref=e4083]: 阿莫西林颗粒
+                    - generic [ref=e4084]: 规格：0.125g*12袋/盒厂家：国药集团威奇达药业有限公司
+                  - generic [ref=e4085]:
+                    - 'generic "图标: check" [ref=e4086]':
+                      - img [ref=e4087]
+                    - text: 选择
+                - generic [ref=e4089] [cursor=pointer]:
+                  - generic [ref=e4090]:
+                    - generic [ref=e4091]: 阿莫西林颗粒
+                    - generic [ref=e4092]: 规格：0.125g*12袋/盒厂家：葵花药业集团(衡水)得菲尔有限公司
+                  - generic [ref=e4093]:
+                    - 'generic "图标: check" [ref=e4094]':
+                      - img [ref=e4095]
+                    - text: 选择
+                - generic [ref=e4097] [cursor=pointer]:
+                  - generic [ref=e4098]:
+                    - generic [ref=e4099]: 阿莫西林颗粒
+                    - generic [ref=e4100]: 规格：0.125g*12袋/盒厂家：安徽济丰药业有限公司
+                  - generic [ref=e4101]:
+                    - 'generic "图标: check" [ref=e4102]':
+                      - img [ref=e4103]
+                    - text: 选择
+                - generic [ref=e4105] [cursor=pointer]:
+                  - generic [ref=e4106]:
+                    - generic [ref=e4107]: 阿莫西林颗粒
+                    - generic [ref=e4108]: 规格：0.125g*12袋/盒厂家：湖南科伦制药有限公司
+                  - generic [ref=e4109]:
+                    - 'generic "图标: check" [ref=e4110]':
+                      - img [ref=e4111]
+                    - text: 选择
+                - generic [ref=e4113] [cursor=pointer]:
+                  - generic [ref=e4114]:
+                    - generic [ref=e4115]: 阿莫西林颗粒
+                    - generic [ref=e4116]: 规格：0.125g*15袋/盒厂家：安徽安科恒益药业有限公司
+                  - generic [ref=e4117]:
+                    - 'generic "图标: check" [ref=e4118]':
+                      - img [ref=e4119]
+                    - text: 选择
+                - generic [ref=e4121] [cursor=pointer]:
+                  - generic [ref=e4122]:
+                    - generic [ref=e4123]: 阿莫西林颗粒
+                    - generic [ref=e4124]: 规格：0.125g*15袋/盒厂家：国药集团威奇达药业有限公司
+                  - generic [ref=e4125]:
+                    - 'generic "图标: check" [ref=e4126]':
+                      - img [ref=e4127]
+                    - text: 选择
+                - generic [ref=e4129] [cursor=pointer]:
+                  - generic [ref=e4130]:
+                    - generic [ref=e4131]: 阿莫西林颗粒
+                    - generic [ref=e4132]: 规格：0.25g*15袋/盒厂家：海南三叶制药厂有限公司
+                  - generic [ref=e4133]:
+                    - 'generic "图标: check" [ref=e4134]':
+                      - img [ref=e4135]
+                    - text: 选择
+                - generic [ref=e4137] [cursor=pointer]:
+                  - generic [ref=e4138]:
+                    - generic [ref=e4139]: 阿莫西林颗粒
+                    - generic [ref=e4140]: 规格：0.125g*18袋/盒厂家：四川依科制药有限公司
+                  - generic [ref=e4141]:
+                    - 'generic "图标: check" [ref=e4142]':
+                      - img [ref=e4143]
+                    - text: 选择
+                - generic [ref=e4145] [cursor=pointer]:
+                  - generic [ref=e4146]:
+                    - generic [ref=e4147]: 阿莫西林颗粒
+                    - generic [ref=e4148]: 规格：0.125g*18袋/盒厂家：四川依科制药有限公司
+                  - generic [ref=e4149]:
+                    - 'generic "图标: check" [ref=e4150]':
+                      - img [ref=e4151]
+                    - text: 选择
+                - generic [ref=e4153] [cursor=pointer]:
+                  - generic [ref=e4154]:
+                    - generic [ref=e4155]: 阿莫西林颗粒
+                    - generic [ref=e4156]: 规格：0.125g*20袋/盒厂家：上海华源安徽仁济制药有限公司
+                  - generic [ref=e4157]:
+                    - 'generic "图标: check" [ref=e4158]':
+                      - img [ref=e4159]
+                    - text: 选择
+                - generic [ref=e4161] [cursor=pointer]:
+                  - generic [ref=e4162]:
+                    - generic [ref=e4163]: 阿莫西林颗粒
+                    - generic [ref=e4164]: 规格：0.125g*24袋/盒厂家：康普药业股份有限公司
+                  - generic [ref=e4165]:
+                    - 'generic "图标: check" [ref=e4166]':
+                      - img [ref=e4167]
+                    - text: 选择
+                - generic [ref=e4169] [cursor=pointer]:
+                  - generic [ref=e4170]:
+                    - generic [ref=e4171]: 阿莫西林颗粒
+                    - generic [ref=e4172]: 规格：0.125g*9袋/盒厂家：贵州神奇药业有限公司
+                  - generic [ref=e4173]:
+                    - 'generic "图标: check" [ref=e4174]':
+                      - img [ref=e4175]
+                    - text: 选择
+                - generic [ref=e4177] [cursor=pointer]:
+                  - generic [ref=e4178]:
+                    - generic [ref=e4179]: 阿莫西林克拉维酸钾颗粒
+                    - generic [ref=e4180]: 规格：156.25mg*6袋/盒厂家：山东益康药业有限公司
+                  - generic [ref=e4181]:
+                    - 'generic "图标: check" [ref=e4182]':
+                      - img [ref=e4183]
+                    - text: 选择
+              - list [ref=e4186]:
+                - listitem [ref=e4187]: 共 1529 条
+                - listitem "上一页" [ref=e4188]:
+                  - 'generic "图标: left" [ref=e4190]':
+                    - img [ref=e4191]
+                - listitem "1" [ref=e4193] [cursor=pointer]:
+                  - generic [ref=e4194]: "1"
+                - listitem "2" [ref=e4195] [cursor=pointer]:
+                  - generic [ref=e4196]: "2"
+                - listitem "3" [ref=e4197] [cursor=pointer]:
+                  - generic [ref=e4198]: "3"
+                - listitem "4" [ref=e4199] [cursor=pointer]:
+                  - generic [ref=e4200]: "4"
+                - listitem "5" [ref=e4201] [cursor=pointer]:
+                  - generic [ref=e4202]: "5"
+                - listitem "向后 5 页" [ref=e4203] [cursor=pointer]:
+                  - generic [ref=e4205]:
+                    - 'generic "图标: double-right" [ref=e4206]':
+                      - img [ref=e4207]
+                    - generic [ref=e4209]: •••
+                - listitem "77" [ref=e4210] [cursor=pointer]:
+                  - generic [ref=e4211]: "77"
+                - listitem "下一页" [ref=e4212] [cursor=pointer]:
+                  - 'generic "图标: right" [ref=e4214]':
+                    - img [ref=e4215]
+                - listitem [ref=e4217]:
+                  - combobox [ref=e4219] [cursor=pointer]:
+                    - generic "20 条/页" [ref=e4221]
+                    - 'generic "图标: down" [ref=e4223]':
+                      - img [ref=e4224]
+                  - generic [ref=e4226]:
+                    - text: 跳至
+                    - textbox [ref=e4227]
+                    - text: 页
+          - generic [ref=e4228]:
+            - generic [ref=e4229]:
+              - text: 已选择
+              - generic [ref=e4230]: "0"
+              - text: 种药品
+            - button "加入药品清单" [ref=e4231] [cursor=pointer]:
+              - generic: 加入药品清单
