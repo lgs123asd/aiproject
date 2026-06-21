@@ -1,0 +1,12 @@
+AFTER MARKING TASK 1 & TASK 3 COMPLETE:
+- Task 1: 00v4dpvk [checked=true]  ← COMPLETED ✓
+- Task 2: hpcq3izi [checked=false] ← ACTIVE (matches recorded name) ✓
+- Task 3: r170ozaj [checked=true]  ← COMPLETED ✓
+Footer: "1 item left"
+
+ACTIVE VIEW:
+- Only task: hpcq3izi [checked=false]
+
+COMPLETED VIEW:
+- Task 1: 00v4dpvk [checked=true]
+- Task 3: r170ozaj [checked=true]

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(aaaa.py)",
+      "Read(.env)"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+EMPTY PAGE (no existing tasks):
+- link "real TodoMVC app." [ref=e1]
+- heading "todos" [level=1, ref=e2]
+- textbox "What needs to be done?" [ref=e3]
+- link "Remo H. Jansen" [ref=e4]
+- link "TodoMVC" [ref=e5]

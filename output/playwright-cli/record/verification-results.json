@@ -1,0 +1,19 @@
+{
+  "verification_time": "2026-06-21T05:04:20Z",
+  "tasks_created": [
+    {"index": 1, "name": "QOkus975", "status": "completed"},
+    {"index": 2, "name": "jl8Rb4lU", "status": "active"},
+    {"index": 3, "name": "3aUe83hz", "status": "completed"}
+  ],
+  "verification_results": {
+    "task_1_completed": true,
+    "task_3_completed": true,
+    "remaining_uncompleted": "jl8Rb4lU",
+    "name_match": true,
+    "active_count": 1,
+    "completed_count": 2,
+    "all_checks_passed": true
+  },
+  "active_view_only_shows": ["jl8Rb4lU"],
+  "completed_view_shows": ["QOkus975", "3aUe83hz"]
+}

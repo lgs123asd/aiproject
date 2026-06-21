@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item *)",
+      "PowerShell(.venv\\\\Scripts\\\\python.exe -m pip install openpyxl -q)",
+      "PowerShell(.venv\\\\Scripts\\\\python.exe \"C:\\\\Users\\\\Administrator\\\\PyCharmMiscProject\\\\.claude\\\\skills\\\\test-design-04-excel-export\\\\scripts\\\\generate_excel.py\" \"C:\\\\Users\\\\Administrator\\\\PyCharmMiscProject\\\\最终用例\\\\test_assets.json\" -o \"C:\\\\Users\\\\Administrator\\\\PyCharmMiscProject\\\\最终用例\\\\功能测试用例设计.xlsx\")",
+      "PowerShell($bytes = [System.IO.File]::ReadAllBytes\\(\"C:\\\\Users\\\\Administrator\\\\PyCharmMiscProject\\\\最终用例\\\\test_assets.json\"\\); Write-Host \"First 4 bytes hex: $\\([System.BitConverter]::ToString\\($bytes[0..3]\\)\\)\"; Write-Host \"File size: $\\($bytes.Length\\) bytes\"; $nullIdx = [array]::IndexOf\\($bytes, [byte]0x00\\); Write-Host \"First null byte at: $nullIdx\")",
+      "PowerShell(.venv\\\\Scripts\\\\python.exe -c \"import json; f=open\\(r'C:\\\\Users\\\\Administrator\\\\PyCharmMiscProject\\\\最终用例\\\\test_assets.json','r',encoding='utf-8'\\); lines=f.readlines\\(\\); print\\(repr\\(lines[96]\\)\\); print\\('---'\\); print\\(repr\\(lines[97]\\)\\); f.close\\(\\)\")",
+      "PowerShell(.venv\\\\Scripts\\\\python.exe fix_json.py)",
+      "PowerShell(.venv\\\\Scripts\\\\python.exe build_json.py)",
+      "PowerShell(claude plugin *)",
+      "PowerShell(claude *)",
+      "mcp__playwright-mcp__browser_snapshot",
+      "mcp__playwright-mcp__browser_take_screenshot",
+      "mcp__playwright-mcp__browser_navigate",
+      "mcp__playwright-mcp__browser_type",
+      "mcp__playwright-mcp__browser_tabs",
+      "mcp__playwright-mcp__browser_click",
+      "mcp__playwright-temp__browser_navigate",
+      "mcp__playwright-temp__browser_snapshot",
+      "mcp__playwright-temp__browser_take_screenshot",
+      "Skill(agent-browser)",
+      "mcp__playwright-temp__browser_evaluate",
+      "Bash(python3 *)",
+      "mcp__playwright-temp__browser_type",
+      "mcp__playwright-temp__browser_click",
+      "mcp__playwright-temp__browser_network_requests",
+      "mcp__playwright-temp__browser_console_messages",
+      "Bash(python *)",
+      "mcp__playwright-mcp__browser_run_code_unsafe",
+      "mcp__playwright-mcp__browser_console_messages"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "playwright-temp"
+  ]
+}

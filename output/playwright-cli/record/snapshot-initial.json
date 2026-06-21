@@ -1,0 +1,7 @@
+{
+  "step": "initial-state",
+  "url": "https://demo.playwright.dev/todomvc/#/",
+  "title": "React • TodoMVC",
+  "existing_tasks": [],
+  "note": "No existing todo items on page"
+}
