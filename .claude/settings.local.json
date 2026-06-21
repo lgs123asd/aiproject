@@ -28,7 +28,9 @@
       "mcp__playwright-temp__browser_console_messages",
       "Bash(python *)",
       "mcp__playwright-mcp__browser_run_code_unsafe",
-      "mcp__playwright-mcp__browser_console_messages"
+      "mcp__playwright-mcp__browser_console_messages",
+      "mcp__playwright-mcp__browser_wait_for",
+      "mcp__playwright-mcp__browser_fill_form"
     ]
   },
   "enabledMcpjsonServers": [

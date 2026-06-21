@@ -1,0 +1,64 @@
+- generic [ref=e2327]:
+  - generic [ref=e2328]:
+    - 'button "图标: arrow-left 返回" [ref=e2329] [cursor=pointer]':
+      - 'generic "图标: arrow-left"':
+        - img
+      - generic: 返回
+    - generic [ref=e2330]: 新增 - 未命名经典方
+  - generic [ref=e2331]:
+    - generic [ref=e2332]:
+      - textbox "请输入经典方名称" [ref=e2333]
+      - generic [ref=e2335]:
+        - generic [ref=e2336]:
+          - generic [ref=e2337]: 总剂数：
+          - generic [ref=e2338]:
+            - generic [ref=e2339]:
+              - button "Increase Value" [ref=e2340] [cursor=pointer]:
+                - 'generic "图标: up" [ref=e2341]':
+                  - img [ref=e2342]
+              - button "Decrease Value" [disabled] [ref=e2344]:
+                - 'generic "图标: down" [ref=e2345]':
+                  - img [ref=e2346]
+            - spinbutton "输入剂数" [ref=e2349]: "1"
+          - generic [ref=e2350]: 剂
+        - generic [ref=e2351]:
+          - generic [ref=e2352]: 每日剂数：
+          - combobox [ref=e2354] [cursor=pointer]:
+            - generic "每日1剂" [ref=e2356]
+            - 'generic "图标: close-circle" [ref=e2358]':
+              - img [ref=e2359]
+            - 'generic "图标: down" [ref=e2362]':
+              - img [ref=e2363]
+        - generic [ref=e2365]:
+          - generic [ref=e2366]: 煎法：
+          - combobox [ref=e2368] [cursor=pointer]:
+            - generic "水煎服" [ref=e2370]
+            - 'generic "图标: close-circle" [ref=e2372]':
+              - img [ref=e2373]
+            - 'generic "图标: down" [ref=e2376]':
+              - img [ref=e2377]
+        - generic [ref=e2379]:
+          - generic [ref=e2380]: 每日服用：
+          - combobox [ref=e2382] [cursor=pointer]:
+            - generic "每日三次" [ref=e2384]
+            - 'generic "图标: close-circle" [ref=e2386]':
+              - img [ref=e2387]
+            - 'generic "图标: down" [ref=e2390]':
+              - img [ref=e2391]
+    - generic [ref=e2393]:
+      - generic [ref=e2394]:
+        - generic [ref=e2396]: 药材组成(0味)
+        - generic [ref=e2398] [cursor=pointer]:
+          - 'generic "图标: search" [ref=e2400]':
+            - img [ref=e2401]
+          - textbox "请输入中药材名称搜索" [ref=e2403]
+      - generic [ref=e2405]:
+        - img "暂无药材" [ref=e2406]
+        - generic [ref=e2407]:
+          - generic [ref=e2408]: 尚未添加药材
+          - generic [ref=e2409]: 从药材库中选择药材添加
+    - generic [ref=e2410]:
+      - button "取 消" [ref=e2411] [cursor=pointer]:
+        - generic: 取 消
+      - button "保存中药经典方" [ref=e2412] [cursor=pointer]:
+        - generic: 保存中药经典方

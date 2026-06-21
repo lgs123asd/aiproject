@@ -1,0 +1,356 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - link "好医生药店端 好医生药店端" [ref=e7] [cursor=pointer]:
+          - /url: "#/dashboard/Analysis"
+          - img "好医生药店端" [ref=e8]
+          - text: 好医生药店端
+        - menu [ref=e9]:
+          - 'menuitem "图标: appstore 首页" [ref=e10] [cursor=pointer]':
+            - 'link "图标: appstore 首页" [ref=e11]':
+              - /url: /dashboard/Analysis
+              - 'generic "图标: appstore" [ref=e12]':
+                - img [ref=e13]
+              - text: 首页
+          - 'menuitem "图标: appstore 在线问诊" [ref=e15] [cursor=pointer]':
+            - 'link "图标: appstore 在线问诊" [ref=e16]':
+              - /url: /onlineConsultation/NewConsultationList
+              - 'generic "图标: appstore" [ref=e17]':
+                - img [ref=e18]
+              - text: 在线问诊
+          - 'menuitem "图标: appstore 人员" [ref=e20]':
+            - generic [ref=e22] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e23]':
+                - img [ref=e24]
+              - text: 人员
+          - 'menuitem "图标: appstore 业务" [ref=e26]':
+            - generic [ref=e28] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e29]':
+                - img [ref=e30]
+              - text: 业务
+          - 'menuitem "图标: appstore 商城" [ref=e32]':
+            - generic [ref=e34] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e35]':
+                - img [ref=e36]
+              - text: 商城
+          - 'menuitem "图标: appstore 财务" [ref=e38]':
+            - generic [ref=e40] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e41]':
+                - img [ref=e42]
+              - text: 财务
+          - 'menuitem "图标: appstore 数据" [ref=e44]':
+            - generic [ref=e46] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e47]':
+                - img [ref=e48]
+              - text: 数据
+          - 'menuitem "图标: appstore 推荐库管理" [ref=e50]':
+            - generic [ref=e52] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e53]':
+                - img [ref=e54]
+              - text: 推荐库管理
+          - 'menuitem "图标: appstore AI药师助手" [ref=e56] [cursor=pointer]':
+            - 'link "图标: appstore AI药师助手" [ref=e57]':
+              - /url: /aiPharmacistAssistant/AssistantMain
+              - 'generic "图标: appstore" [ref=e58]':
+                - img [ref=e59]
+              - text: AI药师助手
+          - 'menuitem "图标: appstore 厂家知识库" [ref=e61] [cursor=pointer]':
+            - 'link "图标: appstore 厂家知识库" [ref=e62]':
+              - /url: /manufacturerKnowledgeBase/Index
+              - 'generic "图标: appstore" [ref=e63]':
+                - img [ref=e64]
+              - text: 厂家知识库
+    - generic [ref=e66]:
+      - generic [ref=e69]:
+        - 'generic "图标: menu-unfold" [ref=e71] [cursor=pointer]':
+          - img [ref=e72]
+        - generic [ref=e76]:
+          - 'button "图标: qrcode 药店二维码" [ref=e168] [cursor=pointer]':
+            - 'generic "图标: qrcode"':
+              - img
+            - generic: 药店二维码
+          - 'button "李陆林测试药店 图标: down" [ref=e170] [cursor=pointer]':
+            - generic: 李陆林测试药店
+            - 'generic "图标: down"':
+              - img
+          - img [ref=e79] [cursor=pointer]
+          - 'link "图标: logout" [ref=e81] [cursor=pointer]':
+            - /url: javascript:;
+            - 'generic "图标: logout" [ref=e82]':
+              - img [ref=e83]
+      - main [ref=e85]:
+        - generic [ref=e86]:
+          - main [ref=e223]:
+            - generic [ref=e231]:
+              - generic [ref=e232]:
+                - 'button "图标: arrow-left 返回" [ref=e233] [cursor=pointer]':
+                  - 'generic "图标: arrow-left"':
+                    - img
+                  - generic: 返回
+                - generic [ref=e234]: 西药处方
+              - generic [ref=e235]:
+                - generic [ref=e236]:
+                  - generic [ref=e238]:
+                    - generic [ref=e239]: "1"
+                    - generic [ref=e240]:
+                      - generic [ref=e241]: 药品清单
+                      - generic [ref=e242]: 选择首诊时开具的药品
+                  - generic [ref=e244]:
+                    - generic [ref=e245]: "2"
+                    - generic [ref=e246]:
+                      - generic [ref=e247]: 就诊人信息
+                      - generic [ref=e248]: 填写就诊人基本信息
+                  - generic [ref=e250]:
+                    - generic [ref=e251]: "3"
+                    - generic [ref=e252]:
+                      - generic [ref=e253]: 预诊问答
+                      - generic [ref=e254]: 回答基础预诊问卷
+                - generic [ref=e255]:
+                  - generic [ref=e256]:
+                    - generic [ref=e258]:
+                      - generic [ref=e259]: 首诊时开具的药品
+                      - generic [ref=e260]: 已选择0种药品。
+                    - generic [ref=e261]:
+                      - generic [ref=e262]:
+                        - 'generic "图标: search" [ref=e264]':
+                          - img [ref=e265]
+                        - textbox "请输入商品名称或者69码搜索" [ref=e267]: 阿
+                        - 'generic "图标: close-circle" [ref=e288] [cursor=pointer]':
+                          - img [ref=e289]
+                      - button "搜 索" [ref=e268] [cursor=pointer]:
+                        - generic: 搜 索
+                    - generic [ref=e270]:
+                      - img [ref=e272]
+                      - paragraph [ref=e284]: 请搜索添加
+                  - button "下一步，填写就诊人" [ref=e286] [cursor=pointer]:
+                    - generic: 下一步，填写就诊人
+          - generic [ref=e166]: © HysYun - 灰度版
+  - dialog "请选择首诊时医生开具的药品" [active] [ref=e292]:
+    - document:
+      - generic [ref=e293]:
+        - button "Close" [ref=e294] [cursor=pointer]:
+          - 'generic "图标: close" [ref=e296]':
+            - img [ref=e297]
+        - generic [ref=e300]: 请选择首诊时医生开具的药品
+        - generic [ref=e302]:
+          - generic [ref=e303]:
+            - generic [ref=e305]:
+              - generic [ref=e306]:
+                - 'generic "图标: search" [ref=e308]':
+                  - img [ref=e309]
+                - textbox "请输入商品名称或者69码搜索" [ref=e311]: 阿
+                - 'generic "图标: close-circle" [ref=e313] [cursor=pointer]':
+                  - img [ref=e314]
+              - button "搜 索" [ref=e317] [cursor=pointer]:
+                - generic: 搜 索
+            - generic [ref=e318]:
+              - generic [ref=e320]: "同时搜索两个以上条件,请用空格隔开示例: 阿莫西林 好医生"
+              - 'generic "图标: close" [ref=e321] [cursor=pointer]':
+                - img [ref=e322]
+            - generic [ref=e327]:
+              - generic [ref=e328]: 共搜索到 4197 种药品
+              - generic [ref=e329]:
+                - generic [ref=e330] [cursor=pointer]:
+                  - generic [ref=e331]:
+                    - generic [ref=e332]: 阿奇霉素分散片
+                    - generic [ref=e333]: 规格：0.25g*14片/盒厂家：阿奇霉素分散片
+                  - generic [ref=e334]:
+                    - 'generic "图标: check" [ref=e335]':
+                      - img [ref=e336]
+                    - text: 选择
+                - generic [ref=e338] [cursor=pointer]:
+                  - generic [ref=e339]:
+                    - generic [ref=e340]: 复方阿胶浆
+                    - generic [ref=e341]: 规格：20ml*12支/盒厂家：东阿阿胶股份有限公司
+                  - generic [ref=e342]:
+                    - 'generic "图标: check" [ref=e343]':
+                      - img [ref=e344]
+                    - text: 选择
+                - generic [ref=e346] [cursor=pointer]:
+                  - generic [ref=e347]:
+                    - generic [ref=e348]: 复方阿胶浆
+                    - generic [ref=e349]: 规格：20ml*12支厂家：东阿阿胶股份有限公司(原山东东阿阿胶股份有限公司)
+                  - generic [ref=e350]:
+                    - 'generic "图标: check" [ref=e351]':
+                      - img [ref=e352]
+                    - text: 选择
+                - generic [ref=e354] [cursor=pointer]:
+                  - generic [ref=e355]:
+                    - generic [ref=e356]: 复方阿胶浆
+                    - generic [ref=e357]: 规格：20ml*12支厂家：山东东阿阿胶股份有限公司
+                  - generic [ref=e358]:
+                    - 'generic "图标: check" [ref=e359]':
+                      - img [ref=e360]
+                    - text: 选择
+                - generic [ref=e362] [cursor=pointer]:
+                  - generic [ref=e363]:
+                    - generic [ref=e364]: 阿司匹林泡腾片
+                    - generic [ref=e365]: 规格：0.1g*20片/盒厂家：阿斯利康制药有限公司
+                  - generic [ref=e366]:
+                    - 'generic "图标: check" [ref=e367]':
+                      - img [ref=e368]
+                    - text: 选择
+                - generic [ref=e370] [cursor=pointer]:
+                  - generic [ref=e371]:
+                    - generic [ref=e372]: 阿司匹林泡腾片
+                    - generic [ref=e373]: 规格：0.5g*10片/盒厂家：阿斯利康制药有限公司
+                  - generic [ref=e374]:
+                    - 'generic "图标: check" [ref=e375]':
+                      - img [ref=e376]
+                    - text: 选择
+                - generic [ref=e378] [cursor=pointer]:
+                  - generic [ref=e379]:
+                    - generic [ref=e380]: 复方阿胶浆
+                    - generic [ref=e381]: 规格：200ml厂家：山东东阿阿胶股份有限公司
+                  - generic [ref=e382]:
+                    - 'generic "图标: check" [ref=e383]':
+                      - img [ref=e384]
+                    - text: 选择
+                - generic [ref=e386] [cursor=pointer]:
+                  - generic [ref=e387]:
+                    - generic [ref=e388]: 复方阿胶浆
+                    - generic [ref=e389]: 规格：250ml厂家：山东东阿阿胶股份有限公司
+                  - generic [ref=e390]:
+                    - 'generic "图标: check" [ref=e391]':
+                      - img [ref=e392]
+                    - text: 选择
+                - generic [ref=e394] [cursor=pointer]:
+                  - generic [ref=e395]:
+                    - generic [ref=e396]: 阿仑膦酸钠维D3片
+                    - generic [ref=e397]: 规格：每片含阿仑膦酸钠70mg(按阿仑膦酸计),维生素D32800IU。厂家：石药集团欧意药业有限公司
+                  - generic [ref=e398]:
+                    - 'generic "图标: check" [ref=e399]':
+                      - img [ref=e400]
+                    - text: 选择
+                - generic [ref=e402] [cursor=pointer]:
+                  - generic [ref=e403]:
+                    - generic [ref=e404]: 阿胶
+                    - generic [ref=e405]: 规格：252g厂家：山东东滕阿胶有限公司
+                  - generic [ref=e406]:
+                    - 'generic "图标: check" [ref=e407]':
+                      - img [ref=e408]
+                    - text: 选择
+                - generic [ref=e410] [cursor=pointer]:
+                  - generic [ref=e411]:
+                    - generic [ref=e412]: 阿司匹林维C泡腾片
+                    - generic [ref=e413]: 规格：每片含阿司匹林330mg与维生素C200mg厂家：沈阳奥吉娜药业有限公司
+                  - generic [ref=e414]:
+                    - 'generic "图标: check" [ref=e415]':
+                      - img [ref=e416]
+                    - text: 选择
+                - generic [ref=e418] [cursor=pointer]:
+                  - generic [ref=e419]:
+                    - generic [ref=e420]: 阿胶
+                    - generic [ref=e421]: 规格：252g/盒厂家：山东鲁润阿胶健康产业有限公司
+                  - generic [ref=e422]:
+                    - 'generic "图标: check" [ref=e423]':
+                      - img [ref=e424]
+                    - text: 选择
+                - generic [ref=e426] [cursor=pointer]:
+                  - generic [ref=e427]:
+                    - generic [ref=e428]: 阿胶
+                    - generic [ref=e429]: 规格：218.75g厂家：山东古阿井阿胶有限公司
+                  - generic [ref=e430]:
+                    - 'generic "图标: check" [ref=e431]':
+                      - img [ref=e432]
+                    - text: 选择
+                - generic [ref=e434] [cursor=pointer]:
+                  - generic [ref=e435]:
+                    - generic [ref=e436]: 阿仑膦酸钠肠溶片
+                    - generic [ref=e437]: 规格：70mg(按阿仑膦酸计)厂家：石药集团欧意药业有限公司
+                  - generic [ref=e438]:
+                    - 'generic "图标: check" [ref=e439]':
+                      - img [ref=e440]
+                    - text: 选择
+                - generic [ref=e442] [cursor=pointer]:
+                  - generic [ref=e443]:
+                    - generic [ref=e444]: 盐酸阿莫罗芬搽剂
+                    - generic [ref=e445]: 规格：5%(以阿莫罗芬计)厂家：江苏福邦药业有限公司
+                  - generic [ref=e446]:
+                    - 'generic "图标: check" [ref=e447]':
+                      - img [ref=e448]
+                    - text: 选择
+                - generic [ref=e450] [cursor=pointer]:
+                  - generic [ref=e451]:
+                    - generic [ref=e452]: 复方盐酸阿米洛利片
+                    - generic [ref=e453]: 规格：每片含盐酸阿米洛利2.5mg、氢氯噻嗪25mg。厂家：江苏迪赛诺制药有限公司
+                  - generic [ref=e454]:
+                    - 'generic "图标: check" [ref=e455]':
+                      - img [ref=e456]
+                    - text: 选择
+                - generic [ref=e458] [cursor=pointer]:
+                  - generic [ref=e459]:
+                    - generic [ref=e460]: 阿司匹林维C分散片
+                    - generic [ref=e461]: 规格：阿司匹林0.4g,维生素C0.24g厂家：南京白敬宇制药有限责任公司
+                  - generic [ref=e462]:
+                    - 'generic "图标: check" [ref=e463]':
+                      - img [ref=e464]
+                    - text: 选择
+                - generic [ref=e466] [cursor=pointer]:
+                  - generic [ref=e467]:
+                    - generic [ref=e468]: 复方盐酸阿米洛利片
+                    - generic [ref=e469]: 规格：盐酸阿米洛利2.5mg;氢氯噻嗪25mg厂家：杭州民生药业有限公司
+                  - generic [ref=e470]:
+                    - 'generic "图标: check" [ref=e471]':
+                      - img [ref=e472]
+                    - text: 选择
+                - generic [ref=e474] [cursor=pointer]:
+                  - generic [ref=e475]:
+                    - generic [ref=e476]: 阿莫西林干混悬剂
+                    - generic [ref=e477]: 规格：0.125g*42袋/盒厂家：阿特维斯(佛山)制药有限公司
+                  - generic [ref=e478]:
+                    - 'generic "图标: check" [ref=e479]':
+                      - img [ref=e480]
+                    - text: 选择
+                - generic [ref=e482] [cursor=pointer]:
+                  - generic [ref=e483]:
+                    - generic [ref=e484]: 阿司匹林维C泡腾片
+                    - generic [ref=e485]: 规格：阿司匹林0.4g；维生素C0.24g厂家：BayerVitalGmbH
+                  - generic [ref=e486]:
+                    - 'generic "图标: check" [ref=e487]':
+                      - img [ref=e488]
+                    - text: 选择
+              - list [ref=e491]:
+                - listitem [ref=e492]: 共 4197 条
+                - listitem "上一页" [ref=e493]:
+                  - 'generic "图标: left" [ref=e495]':
+                    - img [ref=e496]
+                - listitem "1" [ref=e498] [cursor=pointer]:
+                  - generic [ref=e499]: "1"
+                - listitem "2" [ref=e500] [cursor=pointer]:
+                  - generic [ref=e501]: "2"
+                - listitem "3" [ref=e502] [cursor=pointer]:
+                  - generic [ref=e503]: "3"
+                - listitem "4" [ref=e504] [cursor=pointer]:
+                  - generic [ref=e505]: "4"
+                - listitem "5" [ref=e506] [cursor=pointer]:
+                  - generic [ref=e507]: "5"
+                - listitem "向后 5 页" [ref=e508] [cursor=pointer]:
+                  - generic [ref=e510]:
+                    - 'generic "图标: double-right" [ref=e511]':
+                      - img [ref=e512]
+                    - generic [ref=e514]: •••
+                - listitem "210" [ref=e515] [cursor=pointer]:
+                  - generic [ref=e516]: "210"
+                - listitem "下一页" [ref=e517] [cursor=pointer]:
+                  - 'generic "图标: right" [ref=e519]':
+                    - img [ref=e520]
+                - listitem [ref=e522]:
+                  - combobox [ref=e524] [cursor=pointer]:
+                    - generic "20 条/页" [ref=e526]
+                    - 'generic "图标: down" [ref=e528]':
+                      - img [ref=e529]
+                  - generic [ref=e531]:
+                    - text: 跳至
+                    - textbox [ref=e532]
+                    - text: 页
+          - generic [ref=e533]:
+            - generic [ref=e534]:
+              - text: 已选择
+              - generic [ref=e535]: "1"
+              - text: 种药品
+            - button "加入药品清单" [ref=e536] [cursor=pointer]:
+              - generic: 加入药品清单
+  - generic: 阿司匹林维C泡腾片
+  - generic: "+1"

@@ -1,0 +1,257 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - link "好医生药店端 好医生药店端" [ref=e7] [cursor=pointer]:
+        - /url: "#/dashboard/Analysis"
+        - img "好医生药店端" [ref=e8]
+        - text: 好医生药店端
+      - menu [ref=e9]:
+        - 'menuitem "图标: appstore 首页" [ref=e10] [cursor=pointer]':
+          - 'link "图标: appstore 首页" [ref=e11]':
+            - /url: /dashboard/Analysis
+            - 'generic "图标: appstore" [ref=e12]':
+              - img [ref=e13]
+            - text: 首页
+        - 'menuitem "图标: appstore 在线问诊" [ref=e15] [cursor=pointer]':
+          - 'link "图标: appstore 在线问诊" [ref=e16]':
+            - /url: /onlineConsultation/NewConsultationList
+            - 'generic "图标: appstore" [ref=e17]':
+              - img [ref=e18]
+            - text: 在线问诊
+        - 'menuitem "图标: appstore 人员" [ref=e20]':
+          - generic [ref=e22] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e23]':
+              - img [ref=e24]
+            - text: 人员
+        - 'menuitem "图标: appstore 业务" [ref=e26]':
+          - generic [ref=e28] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e29]':
+              - img [ref=e30]
+            - text: 业务
+        - 'menuitem "图标: appstore 商城" [ref=e32]':
+          - generic [ref=e34] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e35]':
+              - img [ref=e36]
+            - text: 商城
+        - 'menuitem "图标: appstore 财务" [ref=e38]':
+          - generic [ref=e40] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e41]':
+              - img [ref=e42]
+            - text: 财务
+        - 'menuitem "图标: appstore 数据" [ref=e44]':
+          - generic [ref=e46] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e47]':
+              - img [ref=e48]
+            - text: 数据
+        - 'menuitem "图标: appstore 推荐库管理" [ref=e50]':
+          - generic [ref=e52] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e53]':
+              - img [ref=e54]
+            - text: 推荐库管理
+        - 'menuitem "图标: appstore AI药师助手" [ref=e56] [cursor=pointer]':
+          - 'link "图标: appstore AI药师助手" [ref=e57]':
+            - /url: /aiPharmacistAssistant/AssistantMain
+            - 'generic "图标: appstore" [ref=e58]':
+              - img [ref=e59]
+            - text: AI药师助手
+        - 'menuitem "图标: appstore 厂家知识库" [ref=e61] [cursor=pointer]':
+          - 'link "图标: appstore 厂家知识库" [ref=e62]':
+            - /url: /manufacturerKnowledgeBase/Index
+            - 'generic "图标: appstore" [ref=e63]':
+              - img [ref=e64]
+            - text: 厂家知识库
+  - generic [ref=e66]:
+    - generic [ref=e69]:
+      - 'generic "图标: menu-unfold" [ref=e71] [cursor=pointer]':
+        - img [ref=e72]
+      - generic [ref=e76]:
+        - 'button "图标: qrcode 药店二维码" [ref=e168] [cursor=pointer]':
+          - 'generic "图标: qrcode"':
+            - img
+          - generic: 药店二维码
+        - 'button "李陆林测试药店 图标: down" [ref=e170] [cursor=pointer]':
+          - generic: 李陆林测试药店
+          - 'generic "图标: down"':
+            - img
+        - img [ref=e79] [cursor=pointer]
+        - 'link "图标: logout" [ref=e81] [cursor=pointer]':
+          - /url: javascript:;
+          - 'generic "图标: logout" [ref=e82]':
+            - img [ref=e83]
+    - main [ref=e85]:
+      - generic [ref=e86]:
+        - main [ref=e223]:
+          - generic [ref=e231]:
+            - generic [ref=e232]:
+              - 'button "图标: arrow-left 返回" [ref=e233] [cursor=pointer]':
+                - 'generic "图标: arrow-left"':
+                  - img
+                - generic: 返回
+              - generic [ref=e234]: 西药处方
+            - generic [ref=e235]:
+              - generic [ref=e236]:
+                - generic [ref=e238]:
+                  - generic [ref=e239]: "1"
+                  - generic [ref=e240]:
+                    - generic [ref=e241]: 药品清单
+                    - generic [ref=e242]: 选择首诊时开具的药品
+                - generic [ref=e244]:
+                  - generic [ref=e245]: "2"
+                  - generic [ref=e246]:
+                    - generic [ref=e247]: 就诊人信息
+                    - generic [ref=e248]: 填写就诊人基本信息
+                - generic [ref=e250]:
+                  - generic [ref=e251]: "3"
+                  - generic [ref=e252]:
+                    - generic [ref=e253]: 预诊问答
+                    - generic [ref=e254]: 回答基础预诊问卷
+              - generic [ref=e255]:
+                - generic [ref=e256]:
+                  - generic [ref=e258]:
+                    - generic [ref=e259]: 首诊时开具的药品
+                    - generic [ref=e260]: 已选择 2 种药品，请调整每种药品数量。
+                  - generic [ref=e261]:
+                    - generic [ref=e262]:
+                      - 'generic "图标: search" [ref=e264]':
+                        - img [ref=e265]
+                      - textbox "请输入商品名称或者69码搜索" [ref=e267]: 阿
+                      - 'generic "图标: close-circle" [ref=e288] [cursor=pointer]':
+                        - img [ref=e289]
+                    - button "搜 索" [ref=e268] [cursor=pointer]:
+                      - generic: 搜 索
+                  - generic [ref=e269]:
+                    - table [ref=e543]:
+                      - rowgroup [ref=e552]:
+                        - row "名称 规格 厂家 用法 单次用量 用药频次 操作" [ref=e553]:
+                          - columnheader "名称" [ref=e554]:
+                            - generic [ref=e556]: 名称
+                          - columnheader "规格" [ref=e557]:
+                            - generic [ref=e559]: 规格
+                          - columnheader "厂家" [ref=e560]:
+                            - generic [ref=e562]: 厂家
+                          - columnheader "用法" [ref=e563]:
+                            - generic [ref=e565]: 用法
+                          - columnheader "单次用量" [ref=e566]:
+                            - generic [ref=e568]: 单次用量
+                          - columnheader "用药频次" [ref=e569]:
+                            - generic [ref=e571]: 用药频次
+                          - columnheader "操作" [ref=e572]:
+                            - generic [ref=e574]: 操作
+                      - rowgroup [ref=e575]:
+                        - 'row "阿司匹林维C泡腾片 阿司匹林0.4g；维生素C0.24g BayerVitalGmbH Increase Value Decrease Value 1 图标: minus 1 图标: plus 删除" [ref=e576]':
+                          - cell "阿司匹林维C泡腾片" [ref=e577]:
+                            - generic [ref=e578]: 阿司匹林维C泡腾片
+                          - cell "阿司匹林0.4g；维生素C0.24g" [ref=e579]
+                          - cell "BayerVitalGmbH" [ref=e580]
+                          - cell [ref=e581]:
+                            - combobox [ref=e583] [cursor=pointer]:
+                              - generic "口服" [ref=e585]
+                              - 'generic "图标: close-circle" [ref=e587]':
+                                - img [ref=e588]
+                              - 'generic "图标: down" [ref=e591]':
+                                - img [ref=e592]
+                          - cell "Increase Value Decrease Value 1" [ref=e594]:
+                            - generic [ref=e595]:
+                              - generic [ref=e596]:
+                                - generic [ref=e597]:
+                                  - button "Increase Value" [ref=e598] [cursor=pointer]:
+                                    - 'generic "图标: up" [ref=e599]':
+                                      - img [ref=e600]
+                                  - button "Decrease Value" [ref=e602] [cursor=pointer]:
+                                    - 'generic "图标: down" [ref=e603]':
+                                      - img [ref=e604]
+                                - spinbutton [ref=e607]: "1"
+                              - combobox [ref=e609] [cursor=pointer]:
+                                - generic "粒" [ref=e611]
+                                - 'generic "图标: close-circle" [ref=e613]':
+                                  - img [ref=e614]
+                                - 'generic "图标: down" [ref=e617]':
+                                  - img [ref=e618]
+                          - cell [ref=e620]:
+                            - combobox [ref=e622] [cursor=pointer]:
+                              - generic "每日三次" [ref=e624]
+                              - 'generic "图标: close-circle" [ref=e626]':
+                                - img [ref=e627]
+                              - 'generic "图标: down" [ref=e630]':
+                                - img [ref=e631]
+                          - 'cell "图标: minus 1 图标: plus 删除" [ref=e633]':
+                            - generic [ref=e634]:
+                              - generic [ref=e635]:
+                                - 'generic "图标: minus" [ref=e637]':
+                                  - img [ref=e638]
+                                - textbox [ref=e640]: "1"
+                                - 'generic "图标: plus" [ref=e642] [cursor=pointer]':
+                                  - img [ref=e643]
+                              - generic [ref=e646] [cursor=pointer]: 删除
+                        - 'row "阿莫西林干混悬剂 0.125g*42袋/盒 阿特维斯(佛山)制药有限公司 Increase Value Decrease Value 0.5 图标: minus 1 图标: plus 删除" [ref=e647]':
+                          - cell "阿莫西林干混悬剂" [ref=e648]:
+                            - generic [ref=e649]: 阿莫西林干混悬剂
+                          - cell "0.125g*42袋/盒" [ref=e650]
+                          - cell "阿特维斯(佛山)制药有限公司" [ref=e651]
+                          - cell [ref=e652]:
+                            - combobox [ref=e654] [cursor=pointer]:
+                              - generic "口服" [ref=e656]
+                              - 'generic "图标: close-circle" [ref=e658]':
+                                - img [ref=e659]
+                              - 'generic "图标: down" [ref=e662]':
+                                - img [ref=e663]
+                          - cell "Increase Value Decrease Value 0.5" [ref=e665]:
+                            - generic [ref=e666]:
+                              - generic [ref=e667]:
+                                - generic [ref=e668]:
+                                  - button "Increase Value" [ref=e669] [cursor=pointer]:
+                                    - 'generic "图标: up" [ref=e670]':
+                                      - img [ref=e671]
+                                  - button "Decrease Value" [ref=e673] [cursor=pointer]:
+                                    - 'generic "图标: down" [ref=e674]':
+                                      - img [ref=e675]
+                                - spinbutton [ref=e678]: "0.5"
+                              - combobox [ref=e680] [cursor=pointer]:
+                                - generic "袋" [ref=e682]
+                                - 'generic "图标: close-circle" [ref=e684]':
+                                  - img [ref=e685]
+                                - 'generic "图标: down" [ref=e688]':
+                                  - img [ref=e689]
+                          - cell [ref=e691]:
+                            - combobox [ref=e693] [cursor=pointer]:
+                              - generic "每日三次" [ref=e695]
+                              - 'generic "图标: close-circle" [ref=e697]':
+                                - img [ref=e698]
+                              - 'generic "图标: down" [ref=e701]':
+                                - img [ref=e702]
+                          - 'cell "图标: minus 1 图标: plus 删除" [ref=e704]':
+                            - generic [ref=e705]:
+                              - generic [ref=e706]:
+                                - 'generic "图标: minus" [ref=e708]':
+                                  - img [ref=e709]
+                                - textbox [ref=e711]: "1"
+                                - 'generic "图标: plus" [ref=e713] [cursor=pointer]':
+                                  - img [ref=e714]
+                              - generic [ref=e717] [cursor=pointer]: 删除
+                    - generic [ref=e720]:
+                      - generic [ref=e721]: 处方金额：
+                      - generic [ref=e722]:
+                        - textbox "处方金额(选填)" [ref=e723]
+                        - generic: 元
+                - generic [ref=e724]:
+                  - generic [ref=e725]: 请选择初诊医师的疾病诊断
+                  - generic [ref=e726]:
+                    - generic [ref=e727] [cursor=pointer]: 呼吸道感染
+                    - generic [ref=e728] [cursor=pointer]: 泌尿道感染
+                    - generic [ref=e729] [cursor=pointer]: 软组织感染
+                    - generic [ref=e730] [cursor=pointer]: 幽门螺旋杆菌感染
+                    - generic [ref=e731] [cursor=pointer]: 泌尿系统感染
+                    - generic [ref=e732] [cursor=pointer]: 消化系统幽门螺杆菌感染
+                    - generic [ref=e733] [cursor=pointer]: 消化系统幽门螺杆菌感染
+                    - generic [ref=e734] [cursor=pointer]: 关节痛
+                    - generic [ref=e735] [cursor=pointer]: 头痛
+                    - generic [ref=e736] [cursor=pointer]: 牙痛
+                    - generic [ref=e737] [cursor=pointer]: 发热
+                    - generic [ref=e738] [cursor=pointer]: 神经痛
+                    - generic [ref=e739] [cursor=pointer]: 流行性感冒
+                - generic [ref=e285]:
+                  - 'button "图标: loading 下一步，填写就诊人" [active]':
+                    - 'generic "图标: loading"':
+                      - img
+                    - generic: 下一步，填写就诊人
+        - generic [ref=e166]: © HysYun - 灰度版

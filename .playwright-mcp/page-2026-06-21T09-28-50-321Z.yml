@@ -1,0 +1,88 @@
+- generic [ref=e2603]:
+  - generic [ref=e2604]:
+    - 'button "图标: arrow-left 返回" [ref=e2605] [cursor=pointer]':
+      - 'generic "图标: arrow-left"':
+        - img
+      - generic: 返回
+    - generic [ref=e2606]: 编辑 - 失眠
+  - generic [ref=e2607]:
+    - generic [ref=e2608]:
+      - textbox "请输入经典方名称" [ref=e2609]: 失眠
+      - generic [ref=e2611]:
+        - generic [ref=e2612]:
+          - generic [ref=e2613]: 总剂数：
+          - generic [ref=e2614]:
+            - generic [ref=e2615]:
+              - button "Increase Value" [ref=e2616] [cursor=pointer]:
+                - 'generic "图标: up" [ref=e2617]':
+                  - img [ref=e2618]
+              - button "Decrease Value" [disabled] [ref=e2620]:
+                - 'generic "图标: down" [ref=e2621]':
+                  - img [ref=e2622]
+            - spinbutton "输入剂数" [ref=e2625]: "1"
+          - generic [ref=e2626]: 剂
+        - generic [ref=e2627]:
+          - generic [ref=e2628]: 每日剂数：
+          - combobox [ref=e2630] [cursor=pointer]:
+            - generic "每日1剂" [ref=e2632]
+            - 'generic "图标: close-circle" [ref=e2634]':
+              - img [ref=e2635]
+            - 'generic "图标: down" [ref=e2638]':
+              - img [ref=e2639]
+        - generic [ref=e2641]:
+          - generic [ref=e2642]: 煎法：
+          - combobox [ref=e2644] [cursor=pointer]:
+            - generic "水煎服" [ref=e2646]
+            - 'generic "图标: close-circle" [ref=e2648]':
+              - img [ref=e2649]
+            - 'generic "图标: down" [ref=e2652]':
+              - img [ref=e2653]
+        - generic [ref=e2655]:
+          - generic [ref=e2656]: 每日服用：
+          - combobox [ref=e2658] [cursor=pointer]:
+            - generic "每日三次" [ref=e2660]
+            - 'generic "图标: close-circle" [ref=e2662]':
+              - img [ref=e2663]
+            - 'generic "图标: down" [ref=e2666]':
+              - img [ref=e2667]
+    - generic [ref=e2669]:
+      - generic [ref=e2670]:
+        - generic [ref=e2672]: 药材组成(2味)
+        - generic [ref=e2674] [cursor=pointer]:
+          - 'generic "图标: search" [ref=e2676]':
+            - img [ref=e2677]
+          - textbox "请输入中药材名称搜索" [ref=e2679]
+      - generic [ref=e2680]:
+        - generic [ref=e2681]:
+          - generic [ref=e2682]: 金银花
+          - generic [ref=e2683]:
+            - 'button "图标: minus" [ref=e2684] [cursor=pointer]':
+              - 'generic "图标: minus"':
+                - img
+            - spinbutton [ref=e2687]: "4.00"
+            - combobox [ref=e2689] [cursor=pointer]:
+              - generic "g" [ref=e2691]
+              - 'generic "图标: down" [ref=e2693]':
+                - img [ref=e2694]
+            - 'button "图标: plus" [ref=e2696] [cursor=pointer]':
+              - 'generic "图标: plus"':
+                - img
+        - generic [ref=e2697]:
+          - generic [ref=e2698]: 三七粉
+          - generic [ref=e2699]:
+            - 'button "图标: minus" [ref=e2700] [cursor=pointer]':
+              - 'generic "图标: minus"':
+                - img
+            - spinbutton [ref=e2703]: "4.00"
+            - combobox [ref=e2705] [cursor=pointer]:
+              - generic "g" [ref=e2707]
+              - 'generic "图标: down" [ref=e2709]':
+                - img [ref=e2710]
+            - 'button "图标: plus" [ref=e2712] [cursor=pointer]':
+              - 'generic "图标: plus"':
+                - img
+    - generic [ref=e2713]:
+      - button "取 消" [ref=e2714] [cursor=pointer]:
+        - generic: 取 消
+      - button "保存中药经典方" [ref=e2715] [cursor=pointer]:
+        - generic: 保存中药经典方

@@ -40,3 +40,8 @@
 [  658257ms] [LOG] 调用 CreateConsultationTempQrCode 接口... @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
 [  659381ms] [LOG] CreateConsultationTempQrCode 返回结果: {IsSuccess: true, ErrorCode: 0, Msg: null, Data: Object, Count: 0} @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
 [  702261ms] [LOG] 无版本更新 @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[ 1002252ms] [LOG] 无版本更新 @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[ 1304670ms] [LOG] 无版本更新 @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[ 1605321ms] [LOG] 无版本更新 @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[ 1905358ms] [LOG] 无版本更新 @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[ 2203956ms] [LOG] 无版本更新 @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0

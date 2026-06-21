@@ -1,0 +1,167 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - link "好医生药店端 好医生药店端" [ref=e7] [cursor=pointer]:
+          - /url: "#/dashboard/Analysis"
+          - img "好医生药店端" [ref=e8]
+          - text: 好医生药店端
+        - menu [ref=e9]:
+          - 'menuitem "图标: appstore 首页" [ref=e10] [cursor=pointer]':
+            - 'link "图标: appstore 首页" [ref=e11]':
+              - /url: /dashboard/Analysis
+              - 'generic "图标: appstore" [ref=e12]':
+                - img [ref=e13]
+              - text: 首页
+          - 'menuitem "图标: appstore 在线问诊" [ref=e15] [cursor=pointer]':
+            - 'link "图标: appstore 在线问诊" [ref=e16]':
+              - /url: /onlineConsultation/NewConsultationList
+              - 'generic "图标: appstore" [ref=e17]':
+                - img [ref=e18]
+              - text: 在线问诊
+          - 'menuitem "图标: appstore 人员" [ref=e20]':
+            - generic [ref=e22] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e23]':
+                - img [ref=e24]
+              - text: 人员
+          - 'menuitem "图标: appstore 业务" [ref=e26]':
+            - generic [ref=e28] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e29]':
+                - img [ref=e30]
+              - text: 业务
+          - 'menuitem "图标: appstore 商城" [ref=e32]':
+            - generic [ref=e34] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e35]':
+                - img [ref=e36]
+              - text: 商城
+          - 'menuitem "图标: appstore 财务" [ref=e38]':
+            - generic [ref=e40] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e41]':
+                - img [ref=e42]
+              - text: 财务
+          - 'menuitem "图标: appstore 数据" [ref=e44]':
+            - generic [ref=e46] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e47]':
+                - img [ref=e48]
+              - text: 数据
+          - 'menuitem "图标: appstore 推荐库管理" [ref=e50]':
+            - generic [ref=e52] [cursor=pointer]:
+              - 'generic "图标: appstore" [ref=e53]':
+                - img [ref=e54]
+              - text: 推荐库管理
+          - 'menuitem "图标: appstore AI药师助手" [ref=e56] [cursor=pointer]':
+            - 'link "图标: appstore AI药师助手" [ref=e57]':
+              - /url: /aiPharmacistAssistant/AssistantMain
+              - 'generic "图标: appstore" [ref=e58]':
+                - img [ref=e59]
+              - text: AI药师助手
+          - 'menuitem "图标: appstore 厂家知识库" [ref=e61] [cursor=pointer]':
+            - 'link "图标: appstore 厂家知识库" [ref=e62]':
+              - /url: /manufacturerKnowledgeBase/Index
+              - 'generic "图标: appstore" [ref=e63]':
+                - img [ref=e64]
+              - text: 厂家知识库
+    - generic [ref=e66]:
+      - generic [ref=e69]:
+        - 'generic "图标: menu-unfold" [ref=e71] [cursor=pointer]':
+          - img [ref=e72]
+        - generic [ref=e76]:
+          - 'button "图标: qrcode 药店二维码" [ref=e168] [cursor=pointer]':
+            - 'generic "图标: qrcode"':
+              - img
+            - generic: 药店二维码
+          - 'button "李陆林测试药店 图标: down" [ref=e170] [cursor=pointer]':
+            - generic: 李陆林测试药店
+            - 'generic "图标: down"':
+              - img
+          - img [ref=e79] [cursor=pointer]
+          - 'link "图标: logout" [ref=e81] [cursor=pointer]':
+            - /url: javascript:;
+            - 'generic "图标: logout" [ref=e82]':
+              - img [ref=e83]
+      - main [ref=e85]:
+        - generic [ref=e86]:
+          - main [ref=e223]:
+            - generic [ref=e231]:
+              - generic [ref=e232]:
+                - 'button "图标: arrow-left 返回" [ref=e233] [cursor=pointer]':
+                  - 'generic "图标: arrow-left"':
+                    - img
+                  - generic: 返回
+                - generic [ref=e234]: 西药处方
+              - generic [ref=e235]:
+                - generic [ref=e236]:
+                  - generic [ref=e238]:
+                    - 'generic "图标: check" [ref=e748]':
+                      - img [ref=e749]
+                    - generic [ref=e240]:
+                      - generic [ref=e241]: 药品清单
+                      - generic [ref=e242]: 选择首诊时开具的药品
+                  - generic [ref=e244]:
+                    - 'generic "图标: check" [ref=e1014]':
+                      - img [ref=e1015]
+                    - generic [ref=e246]:
+                      - generic [ref=e247]: 就诊人信息
+                      - generic [ref=e248]: 填写就诊人基本信息
+                  - generic [ref=e250]:
+                    - generic [ref=e251]: "3"
+                    - generic [ref=e252]:
+                      - generic [ref=e253]: 预诊问答
+                      - generic [ref=e254]: 回答基础预诊问卷
+                - generic [ref=e255]:
+                  - generic [ref=e1018]:
+                    - generic [ref=e1019]:
+                      - generic [ref=e1020]: 以往是否应用过所选药物？
+                      - generic [ref=e1021]:
+                        - generic [ref=e1022] [cursor=pointer]: 是
+                        - generic [ref=e1023] [cursor=pointer]: 否
+                    - generic [ref=e1024]:
+                      - generic [ref=e1025]: 以往应用所选药物时有无过敏反应？
+                      - generic [ref=e1026]:
+                        - generic [ref=e1027] [cursor=pointer]: 无过敏反应
+                        - generic [ref=e1028] [cursor=pointer]: 有过敏反应
+                    - generic [ref=e1029]:
+                      - generic [ref=e1030]: 是否有其他β-内酰胺类（氨苄西林、哌拉西林、头孢等）药物过敏史？
+                      - generic [ref=e1031]:
+                        - generic [ref=e1032] [cursor=pointer]: 无
+                        - generic [ref=e1033] [cursor=pointer]: 有
+                    - generic [ref=e1034]:
+                      - generic [ref=e1035]: 肾功能是否正常？
+                      - generic [ref=e1036]:
+                        - generic [ref=e1037] [cursor=pointer]: 否
+                        - generic [ref=e1038] [cursor=pointer]: 是
+                    - generic [ref=e1039]:
+                      - generic [ref=e1040]: 是否有以下疾病或病史？
+                      - generic [ref=e1042] [cursor=pointer]: 以上均无
+                    - generic [ref=e1043]:
+                      - generic [ref=e1044]: 请选择初诊医师的疾病诊断
+                      - generic [ref=e1045]:
+                        - generic [ref=e1046]:
+                          - 'generic "图标: lock" [ref=e1047]':
+                            - img [ref=e1048]
+                          - text: 呼吸道感染
+                        - generic [ref=e1050] [cursor=pointer]: 泌尿道感染
+                        - generic [ref=e1051] [cursor=pointer]: 软组织感染
+                        - generic [ref=e1052] [cursor=pointer]: 幽门螺旋杆菌感染
+                        - generic [ref=e1053] [cursor=pointer]: 消化系统幽门螺杆菌感染
+                        - generic [ref=e1054] [cursor=pointer]: 泌尿系统感染
+                        - generic [ref=e1055] [cursor=pointer]: 流行性感冒
+                        - generic [ref=e1056] [cursor=pointer]: 发热
+                        - generic [ref=e1057] [cursor=pointer]: 头痛
+                        - generic [ref=e1058] [cursor=pointer]: 关节痛
+                        - generic [ref=e1059] [cursor=pointer]: 神经痛
+                        - generic [ref=e1060] [cursor=pointer]: 牙痛
+                  - generic [ref=e285]:
+                    - button "返回上一步" [ref=e853] [cursor=pointer]:
+                      - generic: 返回上一步
+                    - button "视频问诊 视频问诊" [ref=e1061] [cursor=pointer]:
+                      - img "视频问诊" [ref=e1062]
+                      - generic: 视频问诊
+                    - button "图文问诊 图文问诊" [active] [ref=e1063] [cursor=pointer]:
+                      - img "图文问诊" [ref=e1064]
+                      - generic: 图文问诊
+          - generic [ref=e166]: © HysYun - 灰度版
+  - generic [ref=e1066]:
+    - 'generic "icon: exclamation-circle" [ref=e1067]':
+      - img [ref=e1068]
+    - text: 请回答完所有问题！

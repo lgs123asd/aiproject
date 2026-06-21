@@ -1,0 +1,179 @@
+- generic [ref=e1322]:
+  - complementary [ref=e1323]:
+    - generic [ref=e1324]:
+      - link "好医生药店端 好医生药店端" [ref=e1326] [cursor=pointer]:
+        - /url: "#/dashboard/Analysis"
+        - img "好医生药店端" [ref=e1327]
+        - text: 好医生药店端
+      - menu [ref=e1328]:
+        - 'menuitem "图标: appstore 首页" [ref=e1329] [cursor=pointer]':
+          - 'link "图标: appstore 首页" [ref=e1330]':
+            - /url: /dashboard/Analysis
+            - 'generic "图标: appstore" [ref=e1331]':
+              - img [ref=e1332]
+            - text: 首页
+        - 'menuitem "图标: appstore 在线问诊" [ref=e1334] [cursor=pointer]':
+          - 'link "图标: appstore 在线问诊" [ref=e1335]':
+            - /url: /onlineConsultation/NewConsultationList
+            - 'generic "图标: appstore" [ref=e1336]':
+              - img [ref=e1337]
+            - text: 在线问诊
+        - 'menuitem "图标: appstore 人员" [ref=e1339]':
+          - generic [ref=e1341] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e1342]':
+              - img [ref=e1343]
+            - text: 人员
+        - 'menuitem "图标: appstore 业务" [ref=e1345]':
+          - generic [ref=e1347] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e1348]':
+              - img [ref=e1349]
+            - text: 业务
+        - 'menuitem "图标: appstore 商城" [ref=e1351]':
+          - generic [ref=e1353] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e1354]':
+              - img [ref=e1355]
+            - text: 商城
+        - 'menuitem "图标: appstore 财务" [ref=e1357]':
+          - generic [ref=e1359] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e1360]':
+              - img [ref=e1361]
+            - text: 财务
+        - 'menuitem "图标: appstore 数据" [ref=e1363]':
+          - generic [ref=e1365] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e1366]':
+              - img [ref=e1367]
+            - text: 数据
+        - 'menuitem "图标: appstore 推荐库管理" [ref=e1369]':
+          - generic [ref=e1371] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e1372]':
+              - img [ref=e1373]
+            - text: 推荐库管理
+        - 'menuitem "图标: appstore AI药师助手" [ref=e1375] [cursor=pointer]':
+          - 'link "图标: appstore AI药师助手" [ref=e1376]':
+            - /url: /aiPharmacistAssistant/AssistantMain
+            - 'generic "图标: appstore" [ref=e1377]':
+              - img [ref=e1378]
+            - text: AI药师助手
+        - 'menuitem "图标: appstore 厂家知识库" [ref=e1380] [cursor=pointer]':
+          - 'link "图标: appstore 厂家知识库" [ref=e1381]':
+            - /url: /manufacturerKnowledgeBase/Index
+            - 'generic "图标: appstore" [ref=e1382]':
+              - img [ref=e1383]
+            - text: 厂家知识库
+  - generic [ref=e1385]:
+    - generic [ref=e1388]:
+      - 'generic "图标: menu-unfold" [ref=e1390] [cursor=pointer]':
+        - img [ref=e1391]
+      - generic [ref=e1395]:
+        - 'button "图标: qrcode 药店二维码" [ref=e1397] [cursor=pointer]':
+          - 'generic "图标: qrcode"':
+            - img
+          - generic: 药店二维码
+        - 'button "李陆林测试药店 图标: down" [ref=e1399] [cursor=pointer]':
+          - generic: 李陆林测试药店
+          - 'generic "图标: down"':
+            - img
+        - img [ref=e1402] [cursor=pointer]
+        - 'link "图标: logout" [ref=e1404] [cursor=pointer]':
+          - /url: javascript:;
+          - 'generic "图标: logout" [ref=e1405]':
+            - img [ref=e1406]
+    - main [ref=e1408]:
+      - generic [ref=e1409]:
+        - main [ref=e1413]:
+          - generic [ref=e1415]:
+            - generic [ref=e1423]:
+              - 'button "图标: arrow-left 返回" [ref=e1424] [cursor=pointer]':
+                - 'generic "图标: arrow-left"':
+                  - img
+                - generic: 返回
+              - generic [ref=e1425]: 中药处方
+            - generic [ref=e1427]:
+              - generic [ref=e1428]:
+                - generic [ref=e1430]:
+                  - 'generic "图标: check" [ref=e1763]':
+                    - img [ref=e1764]
+                  - generic [ref=e1432]:
+                    - generic [ref=e1433]: 药品清单
+                    - generic [ref=e1434]: 选择首诊时开具的药品
+                - generic [ref=e1436]:
+                  - generic [ref=e1437]: "2"
+                  - generic [ref=e1438]:
+                    - generic [ref=e1439]: 就诊人信息
+                    - generic [ref=e1440]: 填写就诊人基本信息
+                - generic [ref=e1442]:
+                  - generic [ref=e1443]: "3"
+                  - generic [ref=e1444]:
+                    - generic [ref=e1445]: 预诊问答
+                    - generic [ref=e1446]: 回答基础预诊问卷
+              - generic [ref=e1447]:
+                - generic [ref=e1766]:
+                  - generic [ref=e1767]:
+                    - generic [ref=e1768]:
+                      - generic [ref=e1769]:
+                        - generic [ref=e1770]: 就诊人信息
+                        - generic [ref=e1771]: 为保证服务质量，请填写真实信息。
+                      - button "历史就诊人" [ref=e1772] [cursor=pointer]:
+                        - generic: 历史就诊人
+                    - generic [ref=e1774]:
+                      - generic [ref=e1776]:
+                        - generic "姓名" [ref=e1778]: "* 姓名:"
+                        - combobox [ref=e1783] [cursor=pointer]:
+                          - generic [ref=e1784]:
+                            - list:
+                              - listitem [ref=e1785]:
+                                - textbox "请输入姓名" [ref=e1787]
+                      - generic [ref=e1789]:
+                        - generic "性别" [ref=e1791]: "* 性别:"
+                        - generic [ref=e1795]:
+                          - generic [ref=e1796] [cursor=pointer]:
+                            - generic:
+                              - radio "男" [checked]
+                            - text: 男
+                          - generic [ref=e1797] [cursor=pointer]:
+                            - generic:
+                              - radio "女"
+                            - text: 女
+                      - generic [ref=e1799]:
+                        - generic "年龄" [ref=e1801]: "* 年龄:"
+                        - generic [ref=e1805]:
+                          - generic [ref=e1806]:
+                            - generic [ref=e1807]:
+                              - button "Increase Value" [ref=e1808] [cursor=pointer]:
+                                - 'generic "图标: up" [ref=e1809]':
+                                  - img [ref=e1810]
+                              - button "Decrease Value" [ref=e1812] [cursor=pointer]:
+                                - 'generic "图标: down" [ref=e1813]':
+                                  - img [ref=e1814]
+                            - spinbutton "请输入年龄" [ref=e1817]
+                          - generic [ref=e1818]: 岁
+                      - generic [ref=e1820]:
+                        - generic "患者身份证" [ref=e1822]: "患者身份证:"
+                        - textbox "请输入身份证号" [ref=e1826]
+                      - generic [ref=e1828]:
+                        - generic "患者电话" [ref=e1830]: "患者电话:"
+                        - combobox [ref=e1835] [cursor=pointer]:
+                          - generic [ref=e1836]:
+                            - list:
+                              - listitem [ref=e1837]:
+                                - textbox "请输入手机号" [ref=e1839]
+                  - generic [ref=e1840]:
+                    - generic [ref=e1842]:
+                      - generic [ref=e1843]: 首诊信息
+                      - generic [ref=e1844]: 请填写线下首诊时的信息。
+                    - generic [ref=e1846]:
+                      - generic [ref=e1848]:
+                        - generic "首诊机构" [ref=e1850]: "首诊机构:"
+                        - textbox "请填写首诊医院" [ref=e1854]
+                      - generic [ref=e1856]:
+                        - generic "首诊时间" [ref=e1858]: "首诊时间:"
+                        - generic [ref=e1863]:
+                          - textbox "请选择首诊时间" [ref=e1864]
+                          - 'generic "图标: calendar" [ref=e1865]':
+                            - img [ref=e1866]
+                - generic [ref=e1476]:
+                  - button "返回上一步" [ref=e1868] [cursor=pointer]:
+                    - generic: 返回上一步
+                  - button "下一步，预诊问答" [ref=e1869] [cursor=pointer]:
+                    - generic: 下一步，预诊问答
+        - generic [ref=e1478]: © HysYun - 灰度版

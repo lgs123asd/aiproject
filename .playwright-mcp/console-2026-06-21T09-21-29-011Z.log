@@ -1,0 +1,40 @@
+[      20ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, https://api.map.baidu.com/getscript?v=2.0&ak=sesO0IG45HjFcKUdjff6248M3uPMGRFO&services=&t=20260513111453, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://api.map.baidu.com/api?v=2.0&ak=sesO0IG45HjFcKUdjff6248M3uPMGRFO:0
+[      20ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, https://api.map.baidu.com/getscript?v=2.0&ak=sesO0IG45HjFcKUdjff6248M3uPMGRFO&services=&t=20260513111453, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://api.map.baidu.com/api?v=2.0&ak=sesO0IG45HjFcKUdjff6248M3uPMGRFO:0
+[    1094ms] [LOG] %c TIM %c background:#0abf5b; padding:1px; border-radius:3px; color: #fff background:transparent 17:21:30.051 TIM.VERSION:2.27.6 @ https://drugstore.hyshospital.com/static/js/chunk-vendors.06a84ea3.js:411
+[    4575ms] [LOG] [GrayVersion] check result {epOrganizationId: e5030414-1e2a-46fd-8dee-aaa069024c54, isSuccess: true, isInGrayVersion: true, data: Object} @ https://drugstore.hyshospital.com/static/js/chunk-common.02ec3996.js:0
+[    4576ms] [LOG] [GrayVersion] canary sync {epOrganizationId: e5030414-1e2a-46fd-8dee-aaa069024c54, organizationType: 1, isInGrayVersion: true, grayVersionInfo: Object} @ https://drugstore.hyshospital.com/static/js/chunk-common.02ec3996.js:0
+[    4577ms] [LOG] 是否显示审方 false true true @ https://drugstore.hyshospital.com/static/js/chunk-common.02ec3996.js:0
+[    4739ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://drugstore.hyshospital.com/static/js/chunk-common.02ec3996.js:0
+[    4769ms] [LOG] 注册被踢下线的监听 @ https://drugstore.hyshospital.com/static/js/chunk-common.02ec3996.js:0
+[    5109ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, https://api.map.baidu.com/getscript?v=2.0&ak=sesO0IG45HjFcKUdjff6248M3uPMGRFO&services=&t=20260513111453, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://api.map.baidu.com/api?v=2.0&ak=sesO0IG45HjFcKUdjff6248M3uPMGRFO:0
+[    5109ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, https://api.map.baidu.com/getscript?v=2.0&ak=sesO0IG45HjFcKUdjff6248M3uPMGRFO&services=&t=20260513111453, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://api.map.baidu.com/api?v=2.0&ak=sesO0IG45HjFcKUdjff6248M3uPMGRFO:0
+[    5473ms] [LOG] %c TIM %c background:#0abf5b; padding:1px; border-radius:3px; color: #fff background:transparent 17:21:34.483 TIM.VERSION:2.27.6 @ https://drugstore.hyshospital.com/static/js/chunk-vendors.06a84ea3.js:411
+[    6569ms] [LOG] [GrayVersion] check result {epOrganizationId: e5030414-1e2a-46fd-8dee-aaa069024c54, isSuccess: true, isInGrayVersion: true, data: Object} @ https://drugstore.hyshospital.com/static/js/chunk-common.02ec3996.js:0
+[    6832ms] [LOG] [GrayVersion] canary sync {epOrganizationId: e5030414-1e2a-46fd-8dee-aaa069024c54, organizationType: 1, isInGrayVersion: true, grayVersionInfo: Object} @ https://drugstore.hyshospital.com/static/js/chunk-common.02ec3996.js:0
+[    6833ms] [LOG] 是否显示审方 false true true @ https://drugstore.hyshospital.com/static/js/chunk-common.02ec3996.js:0
+[    6866ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://drugstore.hyshospital.com/static/js/chunk-common.02ec3996.js:0
+[    6888ms] [LOG] 注册被踢下线的监听 @ https://drugstore.hyshospital.com/static/js/chunk-common.02ec3996.js:0
+[    9719ms] [LOG] days 1355 @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[   20632ms] [LOG] 检测是否有新版 @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[   21350ms] [INFO] %cTRTC%c%s padding: 1px 4px;border-radius: 3px;color: #fff;background: #1E88E5; display: inline [17:21:50:360] <INFO> context state: running @ https://drugstore.hyshospital.com/static/js/chunk-vendors.06a84ea3.js:357
+[   21445ms] [LOG] 无版本更新 @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[  274673ms] [LOG] 生成问诊二维码 - consultationId: 3b0a6f61-a900-4908-9670-19841e2f560f @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[  274673ms] [LOG] 调用 CreateConsultationTempQrCode 接口... @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[  277438ms] [LOG] CreateConsultationTempQrCode 返回结果: {IsSuccess: true, ErrorCode: 0, Msg: null, Data: Object, Count: 0} @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[  314823ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://drugstore.hyshospital.com/static/js/chunk-common.02ec3996.js:0
+[  314840ms] [LOG] 注册被踢下线的监听 @ https://drugstore.hyshospital.com/static/js/chunk-common.02ec3996.js:0
+[  324091ms] [LOG] 无版本更新 @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[  470009ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://drugstore.hyshospital.com/static/js/chunk-common.02ec3996.js:0
+[  470028ms] [LOG] 注册被踢下线的监听 @ https://drugstore.hyshospital.com/static/js/chunk-common.02ec3996.js:0
+[  527649ms] [LOG] 生成问诊二维码 - consultationId: 05a8c6e5-2ec6-4758-9871-8e2ec2156c45 @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[  527650ms] [LOG] 调用 CreateConsultationTempQrCode 接口... @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[  530953ms] [LOG] CreateConsultationTempQrCode 返回结果: {IsSuccess: true, ErrorCode: 0, Msg: null, Data: Object, Count: 0} @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[  622658ms] [LOG] 无版本更新 @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[  924182ms] [LOG] 无版本更新 @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[ 1230641ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://drugstore.hyshospital.com/index.html?_t=1782034909624:0
+[ 1530647ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://drugstore.hyshospital.com/index.html?_t=1782035209622:0
+[ 1830425ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://drugstore.hyshospital.com/index.html?_t=1782035509620:0
+[ 2122647ms] [LOG] 无版本更新 @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[ 2422599ms] [LOG] 无版本更新 @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[ 2723607ms] [LOG] 无版本更新 @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0
+[ 3023466ms] [LOG] 无版本更新 @ https://drugstore.hyshospital.com/static/js/index.d4b334de.js:0

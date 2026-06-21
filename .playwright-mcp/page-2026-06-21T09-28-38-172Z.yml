@@ -1,0 +1,173 @@
+- generic [ref=e2428]:
+  - generic [ref=e2429]:
+    - 'button "图标: arrow-left 返回" [ref=e2430] [cursor=pointer]':
+      - 'generic "图标: arrow-left"':
+        - img
+      - generic: 返回
+    - 'button "图标: plus 新增经典方" [ref=e2431] [cursor=pointer]':
+      - 'generic "图标: plus"':
+        - img
+      - generic: 新增经典方
+  - generic [ref=e2432]:
+    - generic [ref=e2433]: 中药经典方
+    - generic [ref=e2434]: 管理您常用的经典处方，快速开方
+  - generic [ref=e2435]:
+    - generic [ref=e2436]:
+      - 'generic "图标: search" [ref=e2438]':
+        - img [ref=e2439]
+      - textbox "输入经典方名称" [ref=e2441]
+    - button "搜 索" [ref=e2442] [cursor=pointer]:
+      - generic: 搜 索
+  - generic [ref=e2443]:
+    - generic [ref=e2444]:
+      - generic [ref=e2445]:
+        - heading "失眠" [level=3] [ref=e2448]
+        - generic [ref=e2451]: 金银花 4g、三七粉 4g
+        - generic [ref=e2452]:
+          - 'button "图标: delete 删除模板" [ref=e2454] [cursor=pointer]':
+            - 'generic "图标: delete"':
+              - img
+            - generic: 删除模板
+          - generic [ref=e2455]:
+            - button "编辑处方" [ref=e2456] [cursor=pointer]:
+              - generic: 编辑处方
+            - button "去开方" [ref=e2457] [cursor=pointer]:
+              - generic: 去开方
+      - generic [ref=e2458]:
+        - heading "小儿退热散" [level=3] [ref=e2461]
+        - generic [ref=e2464]: 黄芪片 8g
+        - generic [ref=e2465]:
+          - 'button "图标: delete 删除模板" [ref=e2467] [cursor=pointer]':
+            - 'generic "图标: delete"':
+              - img
+            - generic: 删除模板
+          - generic [ref=e2468]:
+            - button "编辑处方" [ref=e2469] [cursor=pointer]:
+              - generic: 编辑处方
+            - button "去开方" [ref=e2470] [cursor=pointer]:
+              - generic: 去开方
+      - generic [ref=e2471]:
+        - heading "测试23" [level=3] [ref=e2474]
+        - generic [ref=e2477]: 当归 5.01ml
+        - generic [ref=e2478]:
+          - 'button "图标: delete 删除模板" [ref=e2480] [cursor=pointer]':
+            - 'generic "图标: delete"':
+              - img
+            - generic: 删除模板
+          - generic [ref=e2481]:
+            - button "编辑处方" [ref=e2482] [cursor=pointer]:
+              - generic: 编辑处方
+            - button "去开方" [ref=e2483] [cursor=pointer]:
+              - generic: 去开方
+      - generic [ref=e2484]:
+        - heading "测试感冒用药1" [level=3] [ref=e2487]
+        - generic [ref=e2490]: 车前草 2.5g、杜仲 2.2ml、黄芪 3g
+        - generic [ref=e2491]:
+          - 'button "图标: delete 删除模板" [ref=e2493] [cursor=pointer]':
+            - 'generic "图标: delete"':
+              - img
+            - generic: 删除模板
+          - generic [ref=e2494]:
+            - button "编辑处方" [ref=e2495] [cursor=pointer]:
+              - generic: 编辑处方
+            - button "去开方" [ref=e2496] [cursor=pointer]:
+              - generic: 去开方
+      - generic [ref=e2497]:
+        - heading "测试滋补气血2" [level=3] [ref=e2500]
+        - generic [ref=e2503]: 人参 2ml、红枣 5g、党参 3g、当归 2ml
+        - generic [ref=e2504]:
+          - 'button "图标: delete 删除模板" [ref=e2506] [cursor=pointer]':
+            - 'generic "图标: delete"':
+              - img
+            - generic: 删除模板
+          - generic [ref=e2507]:
+            - button "编辑处方" [ref=e2508] [cursor=pointer]:
+              - generic: 编辑处方
+            - button "去开方" [ref=e2509] [cursor=pointer]:
+              - generic: 去开方
+      - generic [ref=e2510]:
+        - heading "测试新增中药" [level=3] [ref=e2513]
+        - generic [ref=e2516]: 乳光山药 1g、水榕树皮 10ml
+        - generic [ref=e2517]:
+          - 'button "图标: delete 删除模板" [ref=e2519] [cursor=pointer]':
+            - 'generic "图标: delete"':
+              - img
+            - generic: 删除模板
+          - generic [ref=e2520]:
+            - button "编辑处方" [ref=e2521] [cursor=pointer]:
+              - generic: 编辑处方
+            - button "去开方" [ref=e2522] [cursor=pointer]:
+              - generic: 去开方
+      - generic [ref=e2523]:
+        - heading "测试3" [level=3] [ref=e2526]
+        - generic [ref=e2529]: 车前草 1.5ml、柴胡 2.3g、杜仲 2ml
+        - generic [ref=e2530]:
+          - 'button "图标: delete 删除模板" [ref=e2532] [cursor=pointer]':
+            - 'generic "图标: delete"':
+              - img
+            - generic: 删除模板
+          - generic [ref=e2533]:
+            - button "编辑处方" [ref=e2534] [cursor=pointer]:
+              - generic: 编辑处方
+            - button "去开方" [ref=e2535] [cursor=pointer]:
+              - generic: 去开方
+      - generic [ref=e2536]:
+        - heading "测试1" [level=3] [ref=e2539]
+        - generic [ref=e2542]: 桑椹子 1.5g、茯苓 2ml
+        - generic [ref=e2543]:
+          - 'button "图标: delete 删除模板" [ref=e2545] [cursor=pointer]':
+            - 'generic "图标: delete"':
+              - img
+            - generic: 删除模板
+          - generic [ref=e2546]:
+            - button "编辑处方" [ref=e2547] [cursor=pointer]:
+              - generic: 编辑处方
+            - button "去开方" [ref=e2548] [cursor=pointer]:
+              - generic: 去开方
+      - generic [ref=e2549]:
+        - heading "补气血测试用" [level=3] [ref=e2552]
+        - generic [ref=e2555]: 当归 1g、党参 2ml、熟地黄 2g
+        - generic [ref=e2556]:
+          - 'button "图标: delete 删除模板" [ref=e2558] [cursor=pointer]':
+            - 'generic "图标: delete"':
+              - img
+            - generic: 删除模板
+          - generic [ref=e2559]:
+            - button "编辑处方" [ref=e2560] [cursor=pointer]:
+              - generic: 编辑处方
+            - button "去开方" [ref=e2561] [cursor=pointer]:
+              - generic: 去开方
+      - generic [ref=e2562]:
+        - heading "八珍汤" [level=3] [ref=e2565]
+        - generic [ref=e2568]: 人参 9g、白术 9g、茯苓 9g、炙甘草 6g、当归 10g、川芎 8g、白芍 12g、熟地黄 12g
+        - generic [ref=e2569]:
+          - 'button "图标: delete 删除模板" [ref=e2571] [cursor=pointer]':
+            - 'generic "图标: delete"':
+              - img
+            - generic: 删除模板
+          - generic [ref=e2572]:
+            - button "编辑处方" [ref=e2573] [cursor=pointer]:
+              - generic: 编辑处方
+            - button "去开方" [ref=e2574] [cursor=pointer]:
+              - generic: 去开方
+    - list [ref=e2576]:
+      - listitem [ref=e2577]: 共 11 条
+      - listitem "上一页" [ref=e2578]:
+        - 'generic "图标: left" [ref=e2580]':
+          - img [ref=e2581]
+      - listitem "1" [ref=e2583] [cursor=pointer]:
+        - generic [ref=e2584]: "1"
+      - listitem "2" [ref=e2585] [cursor=pointer]:
+        - generic [ref=e2586]: "2"
+      - listitem "下一页" [ref=e2587] [cursor=pointer]:
+        - 'generic "图标: right" [ref=e2589]':
+          - img [ref=e2590]
+      - listitem [ref=e2592]:
+        - combobox [ref=e2594] [cursor=pointer]:
+          - generic "10 条/页" [ref=e2596]
+          - 'generic "图标: down" [ref=e2598]':
+            - img [ref=e2599]
+        - generic [ref=e2601]:
+          - text: 跳至
+          - textbox [ref=e2602]
+          - text: 页

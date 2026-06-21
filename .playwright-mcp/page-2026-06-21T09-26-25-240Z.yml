@@ -1,0 +1,127 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - link "好医生药店端 好医生药店端" [ref=e7] [cursor=pointer]:
+        - /url: "#/dashboard/Analysis"
+        - img "好医生药店端" [ref=e8]
+        - text: 好医生药店端
+      - menu [ref=e9]:
+        - 'menuitem "图标: appstore 首页" [ref=e10] [cursor=pointer]':
+          - 'link "图标: appstore 首页" [ref=e11]':
+            - /url: /dashboard/Analysis
+            - 'generic "图标: appstore" [ref=e12]':
+              - img [ref=e13]
+            - text: 首页
+        - 'menuitem "图标: appstore 在线问诊" [ref=e15] [cursor=pointer]':
+          - 'link "图标: appstore 在线问诊" [ref=e16]':
+            - /url: /onlineConsultation/NewConsultationList
+            - 'generic "图标: appstore" [ref=e17]':
+              - img [ref=e18]
+            - text: 在线问诊
+        - 'menuitem "图标: appstore 人员" [ref=e20]':
+          - generic [ref=e22] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e23]':
+              - img [ref=e24]
+            - text: 人员
+        - 'menuitem "图标: appstore 业务" [ref=e26]':
+          - generic [ref=e28] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e29]':
+              - img [ref=e30]
+            - text: 业务
+        - 'menuitem "图标: appstore 商城" [ref=e32]':
+          - generic [ref=e34] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e35]':
+              - img [ref=e36]
+            - text: 商城
+        - 'menuitem "图标: appstore 财务" [ref=e38]':
+          - generic [ref=e40] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e41]':
+              - img [ref=e42]
+            - text: 财务
+        - 'menuitem "图标: appstore 数据" [ref=e44]':
+          - generic [ref=e46] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e47]':
+              - img [ref=e48]
+            - text: 数据
+        - 'menuitem "图标: appstore 推荐库管理" [ref=e50]':
+          - generic [ref=e52] [cursor=pointer]:
+            - 'generic "图标: appstore" [ref=e53]':
+              - img [ref=e54]
+            - text: 推荐库管理
+        - 'menuitem "图标: appstore AI药师助手" [ref=e56] [cursor=pointer]':
+          - 'link "图标: appstore AI药师助手" [ref=e57]':
+            - /url: /aiPharmacistAssistant/AssistantMain
+            - 'generic "图标: appstore" [ref=e58]':
+              - img [ref=e59]
+            - text: AI药师助手
+        - 'menuitem "图标: appstore 厂家知识库" [ref=e61] [cursor=pointer]':
+          - 'link "图标: appstore 厂家知识库" [ref=e62]':
+            - /url: /manufacturerKnowledgeBase/Index
+            - 'generic "图标: appstore" [ref=e63]':
+              - img [ref=e64]
+            - text: 厂家知识库
+  - generic [ref=e66]:
+    - generic [ref=e69]:
+      - 'generic "图标: menu-unfold" [ref=e71] [cursor=pointer]':
+        - img [ref=e72]
+      - generic [ref=e76]:
+        - 'button "图标: qrcode 药店二维码" [ref=e168] [cursor=pointer]':
+          - 'generic "图标: qrcode"':
+            - img
+          - generic: 药店二维码
+        - 'button "李陆林测试药店 图标: down" [ref=e170] [cursor=pointer]':
+          - generic: 李陆林测试药店
+          - 'generic "图标: down"':
+            - img
+        - img [ref=e79] [cursor=pointer]
+        - 'link "图标: logout" [ref=e81] [cursor=pointer]':
+          - /url: javascript:;
+          - 'generic "图标: logout" [ref=e82]':
+            - img [ref=e83]
+    - main [ref=e85]:
+      - generic [ref=e86]:
+        - main [ref=e223]:
+          - generic [ref=e1091]:
+            - generic [ref=e1092]:
+              - 'button "图标: arrow-left 返回" [ref=e1093] [cursor=pointer]':
+                - 'generic "图标: arrow-left"':
+                  - img
+                - generic: 返回
+              - generic [ref=e1094]: 中药处方
+              - button "选择经典方" [ref=e1095] [cursor=pointer]:
+                - generic: 选择经典方
+            - generic [ref=e1096]:
+              - generic [ref=e1097]:
+                - generic [ref=e1099]:
+                  - generic [ref=e1100]: "1"
+                  - generic [ref=e1101]:
+                    - generic [ref=e1102]: 药品清单
+                    - generic [ref=e1103]: 选择首诊时开具的药品
+                - generic [ref=e1105]:
+                  - generic [ref=e1106]: "2"
+                  - generic [ref=e1107]:
+                    - generic [ref=e1108]: 就诊人信息
+                    - generic [ref=e1109]: 填写就诊人基本信息
+                - generic [ref=e1111]:
+                  - generic [ref=e1112]: "3"
+                  - generic [ref=e1113]:
+                    - generic [ref=e1114]: 预诊问答
+                    - generic [ref=e1115]: 回答基础预诊问卷
+              - generic [ref=e1116]:
+                - generic [ref=e1117]:
+                  - generic [ref=e1118]:
+                    - generic [ref=e1119]: 首诊时开具的药品
+                    - generic [ref=e1120]: 已选择0种药品。
+                  - generic [ref=e1121]:
+                    - generic [ref=e1122]:
+                      - 'generic "图标: search" [ref=e1124]':
+                        - img [ref=e1125]
+                      - textbox "请输入中药材名称搜索" [ref=e1127]
+                    - button "搜 索" [ref=e1128] [cursor=pointer]:
+                      - generic: 搜 索
+                  - generic [ref=e1130]:
+                    - img [ref=e1132]
+                    - paragraph [ref=e1144]: 请搜索添加
+                - button "下一步，填写就诊人" [ref=e1146] [cursor=pointer]:
+                  - generic: 下一步，填写就诊人
+        - generic [ref=e166]: © HysYun - 灰度版
